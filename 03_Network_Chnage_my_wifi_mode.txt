@@ -1,0 +1,17 @@
+steps :- 
+
+first i am putting my server down 
+
+-> ifconfig wlan0 down
+
+second i am changing mode 
+
+-> iwconfig wlan0 mode monitor
+
+third i am starting my server 
+
+-> ifconfig wlan0 up
+
+forth step i am checking my mode again 
+
+-> iwconfig

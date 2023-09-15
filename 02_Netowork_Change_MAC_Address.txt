@@ -1,0 +1,10 @@
+ifconfig -> this will tell me all the device connected to my laptop which can capture wifi signals
+
+wlan0 -> is my external wifi which will help me hacking 
+
+ifconfig wlan0 down -> i am downing the usage of my wifi 
+
+ifconfig wlan0 hw ether 00:11:22:33:44:55 -> mac address i want to change into 
+
+ifconfig wlan0 up -> i am starting my server again 
+

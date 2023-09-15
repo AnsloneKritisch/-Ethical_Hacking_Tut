@@ -1,0 +1,11 @@
+The Basic Command lines are :-
+
+pwd -> to get the current directory
+ls -> to know about the files of the directory
+cd directory_name -> to change the into certain directory 
+cd .. -> to one directory back 
+ls --help -> to get every detail about the directory
+
+apt-get update -> to update all the packages and help to start the system 
+
+apt-get install module_name -> it installs new modules which i need to work

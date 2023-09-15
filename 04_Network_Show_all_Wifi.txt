@@ -1,0 +1,3 @@
+this will code will show all the wifi in our surrounding -> airodump-ng wlan0
+
+BSSID -> main address of the wifi 

@@ -1,0 +1,12 @@
+We took the handshake and now i want to create a wordlist of all the possible words can be the pass word
+so we are going to use crunch to do this 
+
+Basic Format will be Crunch [min] [max] [characters] -t [pattern] -o [filename]
+
+step 1 -> i am not using the patten , i am just using the char and filename 
+
+-> crunch 6 8 anshu12345 -o test.txt
+
+step 2 -> if i wanto check all the char created will be shown by this command
+
+-> cat test.txt

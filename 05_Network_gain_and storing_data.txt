@@ -1,0 +1,4 @@
+airodump-ng --bssid  0C:0E:76:4C:BC:48 --channel 2 --write test wlam0
+
+
+here bssid numebr of the wifi i want to hack  0C:0E:76:4C:BC:48

